@@ -22,6 +22,8 @@ module Spring
 
   require "spring/commands/rails"
   require "spring/commands/rake"
+  require "spring/commands/rspec"
+  require "spring/commands/cucumber"
 
   # Load custom commands, if any.
   # needs to be at the end to allow modification of existing commands.
